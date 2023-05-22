@@ -1,6 +1,10 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
+import { ChevronLeftIcon } from "@heroicons/react/24/outline";
 
 export default function Home(){
+    const router = useRouter();
+
     function Chapter({num, desc}){
         return (
             <div className="border-2 border-red-200 m-2 p-2 rounded-lg bg-red-100">
@@ -18,6 +22,10 @@ export default function Home(){
     
     return(
     <div>
+        <ChevronLeftIcon
+            className="h-8 w-8 stroke-slate-600"
+            onClick={() => {router.push("/")}}
+        />
         <div className="font-extrabold pt-4 text-3xl text-center">
             정보통신 (3-1)
         </div>
