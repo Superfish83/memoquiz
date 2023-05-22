@@ -19,13 +19,13 @@ export default function Index(){
                     {qlink ? 
                     <Link 
                         href={qlink}
-                        className="w-40 bg-blue-200 rounded-lg p-4 mx-auto text-lg">
+                        className="w-40 bg-blue-200 rounded-lg p-2 mx-auto">
                         퀴즈 풀기
                     </Link> : <div className="mx-auto">준비 중입니다.</div>}
                     {slink ? 
                     <Link 
                         href={slink}
-                        className="w-40 bg-blue-200 rounded-lg p-4 mx-auto text-lg">
+                        className="w-40 bg-blue-200 rounded-lg p-2 mx-auto">
                         공부하기
                     </Link> : <div className="mx-auto">준비 중입니다.</div>}
                 </div>
