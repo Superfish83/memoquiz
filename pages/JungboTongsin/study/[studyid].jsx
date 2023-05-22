@@ -14,8 +14,9 @@ export default function Study(){
                 Chapter {id}
             </div>
             <div>
-                <iframe
+                <embed
                 src={"../../pdfs/ch" + id + ".pdf"}
+                type="application/pdf"
                 className="w-full h-[500px]"
                 title="PDF Viewer"
                 />
