@@ -9,8 +9,8 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head />
-        <body>
+        <Head/>
+        <body className="mx-auto sm:w-[640px] m-4 p-4 rounded-xl shadow-2xl">
           <Main />
           <NextScript />
         </body>
