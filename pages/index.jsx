@@ -9,8 +9,8 @@ export default function Index(){
                 <div className="text-center font-bold text-2xl">
                     {name}
                 </div>
-                <Image 
-                    className="p-2"
+                <Image
+                    className="p-2 mx-auto"
                     src={imgpath}
                     width={500}
                     height={500}

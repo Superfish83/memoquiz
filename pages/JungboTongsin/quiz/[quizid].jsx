@@ -30,18 +30,21 @@ export default function Quiz(){
         let cor = corrects;
         if(quizData[questionNum].correctAnswer === quizData[questionNum].options[key]){
             console.log("right");
-            cor.push(true);
+            cor.push(1);
         }
         else{
             console.log("wrong");
-            cor.push(false);
+            cor.push(0);
         }
         setCorrects(cor);
         if(questionNum + 1 < quizData.length){
             setQuestionNum(questionNum+1);
         }
         else{
-            router.push('/JungboTongsin/quiz/result')
+            router.push({
+                pathname: '/JungboTongsin/quiz/result',
+                query: { c: corrects, id: router.query.quizid },
+            })
         }
     }
 
