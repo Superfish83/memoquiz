@@ -10,7 +10,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head/>
-        <body className="mx-auto sm:w-[640px] m-4 p-4 rounded-xl shadow-2xl">
+        <body className="mx-auto sm:w-[640px] m-4 p-4 rounded-xl">
           <Main />
           <NextScript />
         </body>

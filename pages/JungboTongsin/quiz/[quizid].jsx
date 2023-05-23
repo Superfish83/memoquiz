@@ -1,17 +1,74 @@
+import BackButton from "@/components/BackButton";
 import { useRouter } from "next/router";
-import { ChevronLeftIcon } from "@heroicons/react/24/outline";
+import { useEffect, useState } from 'react';
+
 
 export default function Quiz(){
     const router = useRouter();
 
+    const [quizData, setQuizData] = useState(null);
+    const [questionNum, setQuestionNum] = useState(0);
+    const [corrects, setCorrects] = useState([]);
+
+    const fetchJson = (id) => {
+        fetch("../../quizdata/ch" + id + ".json")
+        .then(response => {
+          return response.json();
+        }).then(data => {
+          setQuizData(data);
+        }).catch((e) => {
+          console.log(e.message);
+        });
+      }
+
+    useEffect(() => {
+        if(router.isReady)
+            fetchJson(router.query.quizid)
+    }, [router.isReady]);
+
+    function handleChoose(key){
+        let cor = corrects;
+        if(quizData[questionNum].correctAnswer === quizData[questionNum].options[key]){
+            console.log("right");
+            cor.push(true);
+        }
+        else{
+            console.log("wrong");
+            cor.push(false);
+        }
+        setCorrects(cor);
+        if(questionNum + 1 < quizData.length){
+            setQuestionNum(questionNum+1);
+        }
+        else{
+            router.push('/JungboTongsin/quiz/result')
+        }
+    }
+
+    function Question(){
+        return (
+            <div className="p-2">
+                <div className="text-xl font-bold">문제 {questionNum+1}</div>
+                <div className="pt-2 pb-4">{quizData[questionNum].question}</div>
+
+                {quizData[questionNum].options.map((data, key) => (
+                    <button
+                        onClick={() => {handleChoose(key)}}
+                        className="border-2 w-full p-2 m-1 border-slate-400 rounded-lg">
+                        {data}
+                    </button>
+                ))
+                }
+            </div>
+        );
+    }
 
     return (
-        <div>
-            <ChevronLeftIcon
-                className="h-8 w-8 stroke-slate-600"
-                onClick={() => {router.push("/JungboTongsin/quiz")}}
-            />
-            {router.query.quizid}
-        </div>
+    <div>
+        <BackButton link="/JungboTongsin/quiz"/>
+        {quizData ? 
+            <Question/> : <div>데이터 로드 중...</div>
+        }
+    </div>
     );
 }
