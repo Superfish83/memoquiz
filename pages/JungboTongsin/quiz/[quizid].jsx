@@ -53,6 +53,7 @@ export default function Quiz(){
 
                 {quizData[questionNum].options.map((data, key) => (
                     <button
+                        key={key}
                         onClick={() => {handleChoose(key)}}
                         className="border-2 w-full p-2 m-1 border-slate-400 rounded-lg">
                         {data}
