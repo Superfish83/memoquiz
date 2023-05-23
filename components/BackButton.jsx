@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function BackButton({ link }){
     return (
-        <div>
+        <div className="h-8 w-8">
             <Link href={link}>        
             <ChevronLeftIcon
                 className="h-8 w-8 stroke-slate-600"/>
