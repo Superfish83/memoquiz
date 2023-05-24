@@ -1,6 +1,7 @@
 import BackButton from "@/components/BackButton";
 import { useRouter } from "next/router";
 import { useEffect, useState } from 'react';
+import { shuffle } from 'lodash'
 
 
 export default function Quiz(){
@@ -15,7 +16,15 @@ export default function Quiz(){
         .then(response => {
           return response.json();
         }).then(data => {
-          setQuizData(data);
+          let shfData = shuffle(data);
+          for(let i = 0; i < data.length; i++){
+            let item = shfData[i];
+            item.options = shuffle(item.options);
+            shfData[i] = item;
+          }
+          console.log(data)
+          console.log(shfData)
+          setQuizData(shfData);
         }).catch((e) => {
           console.log(e.message);
         });
@@ -54,7 +63,7 @@ export default function Quiz(){
                 <div className="text-xl font-bold">문제 {questionNum+1}</div>
                 <div className="pt-2 pb-4">{quizData[questionNum].question}</div>
 
-                {quizData[questionNum].options.map((data, key) => (
+                {quizData[questionNum].options?.map((data, key) => (
                     <button
                         key={key}
                         onClick={() => {handleChoose(key)}}

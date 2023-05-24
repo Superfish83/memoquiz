@@ -1,12 +1,52 @@
 [
     {
-      "question": "What is the capital of France?",
-      "options": ["Paris", "London", "Berlin"],
-      "correctAnswer": "Paris"
+      "question": "데이터 통신을 구성하는 두 가지 요소는?",
+      "options": ["데이터 처리, 데이터 전송", "데이터 생성, 데이터 삭제", "데이터 분석, 데이터 삭제", "데이터 수집, 데이터 분석"],
+      "correctAnswer": "데이터 처리, 데이터 전송"
     },
     {
-      "question": "Which planet is closest to the sun?",
-      "options": ["Venus", "Mars", "Mercury"],
-      "correctAnswer": "Mercury"
+      "question": "데이터 통신시스템의 5대 구성 요소가 아닌 것은?",
+      "options": [ "라우터", "송신기", "수신기", "전송매체", "프로토콜"],
+      "correctAnswer": "라우터"
+    },
+    {
+      "question": "네트워크에서 전송되는 작은 데이터 조각을 무엇이라 하는가?",
+      "options": ["패킷", "헤더", "바이트", "트레일러"],
+      "correctAnswer": "패킷"
+    },
+    {
+      "question": "정보를 표시하는 최소의 단위는?",
+      "options": [ "비트", "바이트", "큐비트", "드롭더비트"],
+      "correctAnswer": "비트"
+    },
+    {
+      "question": "다음 중 특정 건물이나 지역을 범위로 하고, 속도가 빠르며 오류 발생 확률이 낮은 네트워크를 의미하는 말은?",
+      "options": ["LAN", "WAN", "인터넷", "아르파넷"],
+      "correctAnswer": "LAN"
+    },
+    {
+      "question": "전기 통신 사업자가 제공하는 서비스를 사용하여 구축된 속도가 느리고 오류가 발생하기 쉬운 네트워크를 의미하는 말은?",
+      "options": ["WAN", "LAN", "큰사넷", "딥 웹"],
+      "correctAnswer": "WAN"
+    },
+    {
+      "question": "다음 중 디지털 데이터를 아날로그 신호로 변환하여 전송하는 장치는?",
+      "options": ["모뎀(MODEM)", "DSU(Digital Service Unit)", "코덱(Codec)", "전화기"],
+      "correctAnswer": "모뎀(MODEM)"
+    },
+    {
+      "question": "네트워크에서 단위 시간당 정보의 전송량과 그것의 단위를 알맞게 짝지은 것은?",
+      "options": ["대역폭 - bps", "대역폭 - Hz", "진동수 - Hz", "진동수 - rpm"],
+      "correctAnswer": "대역폭 - bps"
+    },
+    {
+      "question": "네트워크에서 DMZ(Demilitarized Zone)에 대한 서술 중 옳지 않은 것은?",
+      "options": ["사내에서만 접속하여 이용하기 위한 네트워크이다.", "회사 외부에 공개되는 네트워크이다.", "주로 웹 서버, 메일 서버, DNS 서버를 공개한다.", "온프레미스 혹은 클라우드를 통해 운영한다."],
+      "correctAnswer": "사내에서만 접속하여 이용하기 위한 네트워크이다."
+    },
+    {
+      "question": "데이터의 전송에 관한 서술 중 옳지 않은 것은?",
+      "options": ["최근에는 단말 장치로 더미 단말을 주로 사용한다.", "전송 매체 중 유선 매체에는 동축 케이블, 광케이블 등이 있다.", "큰 데이터는 패킷으로 나누어 전송한다.", "신호 변환 장치는 아날로그와 디지털 정보를 서로 변환한다." ],
+      "correctAnswer": "최근에는 단말 장치로 더미 단말을 주로 사용한다."
     }
 ]
