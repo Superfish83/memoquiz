@@ -37,6 +37,9 @@ export default function Index(){
     <div >
         <div className="font-extrabold p-4 text-4xl text-center">
             Hello 퀴즈사이트!
+            <div className="font-bold p-1 text-xl">
+                만든사람: 김연준
+            </div>
         </div>
         <div>
             <PageCard 
