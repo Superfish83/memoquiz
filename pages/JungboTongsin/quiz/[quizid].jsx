@@ -67,7 +67,7 @@ export default function Quiz(){
                     <button
                         key={key}
                         onClick={() => {handleChoose(key)}}
-                        className="border-2 w-full p-2 m-1 border-slate-400 rounded-lg">
+                        className="border-2 w-full p-2 m-1 border-slate-400 hover:bg-cyan-200 rounded-lg">
                         {data}
                     </button>
                 ))
