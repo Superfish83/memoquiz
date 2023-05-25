@@ -10,7 +10,7 @@ export default function Index(){
                     {name}
                 </div>
                 <Image
-                    className="p-2 mx-auto"
+                    className="p-2 mx-auto rounded-3xl"
                     src={imgpath}
                     width={500}
                     height={500}
@@ -50,6 +50,9 @@ export default function Index(){
             <PageCard 
                 name="정보통신 (혼자 공부하는 머신러닝)"
                 imgpath="/ai1.jpeg"/>
+            <PageCard 
+                name="화작 (수능특강 독서)"
+                imgpath="/st1.png"/>
             <PageCard 
                 name="Word Smart 1"
                 imgpath="/ws1.jpeg"/>
