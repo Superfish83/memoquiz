@@ -17,10 +17,10 @@ export default function Study(){
             </div>
             <div>
                 <embed
-                src={"../../pdfs/ch" + id + ".pdf"}
-                type="application/pdf"
-                className="w-full h-[500px]"
-                title="PDF Viewer"
+                    src={"../../pdfs/ch" + id + ".pdf"}
+                    type="application/pdf"
+                    className="w-full h-[490px]"
+                    title="PDF Viewer"
                 />
             </div>
         </div>
