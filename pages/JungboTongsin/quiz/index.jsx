@@ -43,7 +43,7 @@ export default function Home(){
         </div>
         <div>
             <Chapter num={1} title="네트워크 첫걸음" desc="네트워크, 데이터, LAN과 WAN"/>
-            <Chapter num={2} unready={true} title="네트워크의 기본 규칙" desc="프로토콜, OSI 7계층, 캡슐화"/>
+            <Chapter num={2} title="네트워크의 기본 규칙" desc="프로토콜, OSI 7계층, 캡슐화"/>
             <Chapter num={3} unready={true} title="물리 계층" desc="케이블, 리피터"/>
             <Chapter num={4} unready={true} title="데이터 링크 계층" desc="이더넷, MAC 주소, 스위치"/>
             <Chapter num={5} unready={true} title="네트워크 계층" desc="IP 주소, 서브넷, 라우터"/>

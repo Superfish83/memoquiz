@@ -5,11 +5,13 @@ import BackButton from "@/components/BackButton";
 export default function Home(){
     const router = useRouter();
 
-    function Chapter({num, desc}){
+    function Chapter({num, title, desc}){
+        const displayTitle = `Chapter.${num} - ${title}`
+
         return (
             <div className="border-2 border-blue-200 m-2 p-2 rounded-lg bg-blue-100">
             <Link href={'study/' + num}>
-                <div className="text-xl font-bold">Chapter.{num}</div>
+                <div className="text-xl font-bold">{displayTitle}</div>
                 <div className="text-lg">{desc}</div>
             </Link>
             </div>
@@ -30,11 +32,11 @@ export default function Home(){
                 수업 자료
             </div>
             <div>
-                <Chapter num={1} desc="네트워크 첫걸음 / 네트워크, 데이터, LAN과 WAN"/>
-                <Chapter num={2} desc="네트워크의 기본 규칙 / 프로토콜, OSI 7계층, 캡슐화"/>
-                <Chapter num={3} desc="물리 계층 / 케이블, 리피터"/>
-                <Chapter num={4} desc="데이터 링크 계층 / 이더넷, MAC 주소, 스위치"/>
-                <Chapter num={5} desc="네트워크 계층 / IP 주소, 서브넷, 라우터"/>
+                <Chapter num={1} title="네트워크 첫걸음" desc="네트워크, 데이터, LAN과 WAN"/>
+                <Chapter num={2} unready={true} title="네트워크의 기본 규칙" desc="프로토콜, OSI 7계층, 캡슐화"/>
+                <Chapter num={3} unready={true} title="물리 계층" desc="케이블, 리피터"/>
+                <Chapter num={4} unready={true} title="데이터 링크 계층" desc="이더넷, MAC 주소, 스위치"/>
+                <Chapter num={5} unready={true} title="네트워크 계층" desc="IP 주소, 서브넷, 라우터"/>
             </div>
         </div>
     );

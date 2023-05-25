@@ -24,10 +24,10 @@ export default function Home() {
 
     function getComment(){
         if(score > 0){
-            if(score <= 30) return <div className="text-red-500">허접하군요 !</div>;
-            if(score <= 60) return <div className="text-yellow-500">어느 정도는 아시는군요.</div>;;
-            if(score <= 99) return <div className="text-green-500">오~ 좀 치는군요.</div>;
-            if(score <= 100) return <div className="text-purple-500">완벽합니다.</div>;
+            if(score < 30) return <div className="text-red-500">허접하군요!</div>;
+            if(score < 60) return <div className="text-lime-500">조금은 아시는군요.</div>;;
+            if(score < 100) return <div className="text-blue-500">오~ 좀 치는군요.</div>;
+            if(score == 100) return <div className="text-purple-500">그저 완벽합니다.</div>;
         }
     }
 
