@@ -8,5 +8,15 @@
         "type" : "독서 - 사회문화 10",
         "title" : "조선 시대 소송 제도",
         "imgPath" : "/korean/titleimg/2.png"
+    },
+    {
+        "type" : "독서 - 과학기술 06",
+        "title" : "케플러와 지구 궤도",
+        "imgPath" : "/korean/titleimg/3.png"
+    },
+    {
+        "type" : "독서 - 과학기술 09",
+        "title" : "인공 지능이 만드는 진화 음악",
+        "imgPath" : "/korean/titleimg/4.jpg"
     }
 ]

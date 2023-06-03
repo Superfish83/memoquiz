@@ -25,7 +25,7 @@ export default function Home(){
 
         return (
             <div className="m-2 rounded-lg bg-gray-100">
-            <Link href={'study/' + num}>
+            <Link href={'quiz/' + num}>
                 <div className="p-2">
                 <div className="text-lg">{type}</div>
                 <div className="text-xl font-bold">{title}</div>
@@ -54,7 +54,7 @@ export default function Home(){
             <div>
                 {
                     chapterData?.map((data, key)=>(
-                        <Chapter num={key}
+                        <Chapter num={key+1}
                             type={data.type}
                             title={data.title}
                             imgPath={data.imgPath}
