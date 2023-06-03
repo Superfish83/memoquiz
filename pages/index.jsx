@@ -43,19 +43,19 @@ export default function Index(){
         </div>
         <div>
             <PageCard 
+                name="화작 (수능특강 독서)"
+                imgpath="/titleimg/st1.png"
+                qlink="/Korean/quiz"
+                slink="/Korean/study"/>
+            <PageCard 
                 name="정보통신 (모두의 네트워크)"
-                imgpath="/jt1.jpg"
+                imgpath="/titleimg/jt1.jpg"
                 qlink="/JungboTongsin/quiz"
                 slink="/JungboTongsin/study"/>
-            <PageCard 
-                name="정보통신 (혼자 공부하는 머신러닝)"
-                imgpath="/ai1.jpeg"/>
-            <PageCard 
-                name="화작 (수능특강 독서)"
-                imgpath="/st1.png"/>
-            <PageCard 
-                name="Word Smart 1"
-                imgpath="/ws1.jpeg"/>
+            <Link href={'/ee'}
+                className="border-white text-white bg-white">
+                    2회고사 ㅎㅇㅌ
+            </Link>
         </div>
     </div>
     );

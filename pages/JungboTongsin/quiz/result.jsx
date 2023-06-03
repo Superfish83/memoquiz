@@ -1,17 +1,21 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import { useLocation } from "react-router-dom";
 
 export default function Home() {
     const [ corrects, setCorrects ] = useState([]);
+    const [ wrongData, setWrongData ] = useState([]);
     const [ score, setScore ] = useState(-1);
     const router = useRouter();
+    const state = useLocation().state;
 
     useEffect(() => {
         if(!router.isReady) return;
 
-        if(router.query.c){
-            setCorrects(router.query.c);
+        if(state.c){
+            setCorrects(state.c);
+            setWrongData(state.wrongData);
         }
         else{
             alert("잘못된 접근입니다.");
@@ -62,11 +66,33 @@ export default function Home() {
         <div className="w-full flex justify-center mt-10">
         <button
             className="border-2 border-blue-300 bg-blue-200 rounded-xl p-2 my-4"
-            onClick={() => { router.push(`/JungboTongsin/quiz/${router.query.id}` ); }
+            onClick={() => { router.push(`/JungboTongsin/quiz/${state.id}` ); }
         }>
             다시 풀기
         </button>
         </div>
+
+        {(wrongData.length > 0) ? 
+            (<div className="text-center">
+                틀린 문제들
+                {wrongData?.map((data, key) => (
+                    <div className="m-5">
+                        <div className="font-bold">
+                            {key}. 문제 {data[0]}
+                        </div>
+                        <div className="">
+                            {data[1]}
+                        </div>
+                        <div className="text-red">
+                            정답: {data[2]}
+                        </div>
+                        <div className="text-red">
+                            당신의 답: {data[3]}
+                        </div>
+                    </div>
+                ))}
+            </div>) : null
+        }
     </div>
     );
 }

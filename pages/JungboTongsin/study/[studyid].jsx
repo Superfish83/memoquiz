@@ -17,11 +17,14 @@ export default function Study(){
             </div>
             <div>
                 <embed
-                    src={"../../pdfs/ch" + id + ".pdf"}
+                    src={"../../jt/pdfs/ch" + id + ".pdf"}
                     type="application/pdf"
-                    className="w-full h-[490px]"
+                    className="w-full h-[470px]"
                     title="PDF Viewer"
                 />
+            </div>
+            <div className="text-slate-600 p-2 text-center">
+                <div>이 pdf 파일은 수업시간에 배부된 자료입니다. 시험공부 용도로만 사용해 주세요</div>
             </div>
         </div>
     );

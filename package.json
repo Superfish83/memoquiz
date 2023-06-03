@@ -20,6 +20,7 @@
     "react-dom": "18.2.0",
     "react-pdf": "^6.2.2",
     "react-pdf-viewer-component": "^0.2.0",
+    "react-router-dom": "^6.11.2",
     "webpack": "^5.83.1"
   },
   "devDependencies": {
