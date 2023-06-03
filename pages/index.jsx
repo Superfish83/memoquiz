@@ -14,6 +14,7 @@ export default function Index(){
                     src={imgpath}
                     width={500}
                     height={500}
+                    alt={name}
                 />
                 <div className="grid grid-cols-2 pt-2 text-center">
                     {qlink ? 
