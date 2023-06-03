@@ -193,7 +193,7 @@ export default function Quiz(){
                             틀린 문제들
                         </div>
                         {wrongData?.map((data, key) => (
-                            <div className="m-5">
+                            <div key={key} className="m-5">
                                 <div className="font-bold text-lg">
                                     문제 {data.id+1}
                                 </div>
