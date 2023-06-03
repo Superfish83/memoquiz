@@ -122,7 +122,7 @@ export default function Quiz(){
                     </div>
                     {
                         quizData?.map((data, key) => (
-                            <div className="my-10">
+                            <div className="my-10" key={key}>
                                 <Question id={key} data={data} sel={selectData}/>
                             </div>
                             )
@@ -172,7 +172,7 @@ export default function Quiz(){
                             틀린 문제들
                         </div>
                         {wrongData?.map((data, key) => (
-                            <div key={key} className="m-5">
+                            <div className="m-5" key={key}>
                                 <div className="font-bold text-lg">
                                     문제 {data.id+1}
                                 </div>

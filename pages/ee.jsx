@@ -14,6 +14,7 @@ export default function EasterEgg(){
                  src="/titleimg/duck-spinning.gif"
                 width={700}
                 height={700}
+                alt="duck-spinning"
             />
         </div>
     </div>

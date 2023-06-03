@@ -136,11 +136,11 @@ export default function Quiz(){
                         퀴즈
                     </div>
                     <div className="text-center pb-4 font-bold">
-                        {chapterData.type} : "{chapterData.title}"
+                        {chapterData.type} : &quot;{chapterData.title}&quot;
                     </div>
                     {
                         quizData?.map((data, key) => (
-                            <div className="my-10">
+                            <div className="my-10" key={key}>
                                 <Question id={key} data={data} sel={selectData}/>
                             </div>
                             )
@@ -164,7 +164,7 @@ export default function Quiz(){
                         </div>
                     </div>
                     <div className="text-center pb-4 font-bold">
-                        {chapterData?.type} : "{chapterData?.title}"
+                        {chapterData?.type} : &quot;{chapterData?.title}&quot;
                     </div>
                     
                     <div className="text-xl p-1">채점 정오표</div>
@@ -193,7 +193,7 @@ export default function Quiz(){
                             틀린 문제들
                         </div>
                         {wrongData?.map((data, key) => (
-                            <div key={key} className="m-5">
+                            <div className="m-5" key={key}>
                                 <div className="font-bold text-lg">
                                     문제 {data.id+1}
                                 </div>

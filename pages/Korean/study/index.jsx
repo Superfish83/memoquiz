@@ -54,7 +54,9 @@ export default function Home(){
             <div>
                 {
                     chapterData?.map((data, key)=>(
-                        <Chapter num={key+1}
+                        <Chapter 
+                            key={key}
+                            num={key+1}
                             type={data.type}
                             title={data.title}
                             imgPath={data.imgPath}
