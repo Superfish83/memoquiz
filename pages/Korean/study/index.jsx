@@ -10,7 +10,7 @@ export default function Home(){
     const [chapterData, setChapterData] = useState();
     
     const fetchJson = () => {
-        fetch("../../korean/chapterdata.json")
+        fetch("../../korean/chapterData.json")
         .then(response => {
           return response.json();
         }).then(data => {
