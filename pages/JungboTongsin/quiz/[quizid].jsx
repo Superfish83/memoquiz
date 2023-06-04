@@ -117,9 +117,20 @@ export default function Quiz(){
         {score === -1 ? (
             quizData ? 
                 (<div>
-                    <div className="text-center p-4 text-2xl font-bold">
-                        {router.query.quizid}장 퀴즈
-                    </div>
+                    {router.query.quizid == 0 ? (
+                        <div>
+                        <div className="text-center p-4 text-2xl font-bold">
+                            종합 퀴즈
+                        </div>
+                        <div className="text-center font-bold text-sm">
+                            [문제 1 ~ 12] 괄호에 들어갈 가장 적절한 말을 고르세요.
+                        </div>
+                        </div>
+                    ) : (
+                        <div className="text-center p-4 text-2xl font-bold">
+                            {router.query.quizid}장 퀴즈
+                        </div>
+                    )}
                     {
                         quizData?.map((data, key) => (
                             <div className="my-10" key={key}>
@@ -139,7 +150,8 @@ export default function Quiz(){
             ) : (
                 <div>
                     <div className="text-center p-4 text-2xl font-bold">
-                        {router.query.quizid}장 퀴즈 점수
+                        {router.query.quizid == 0 ? `종합 퀴즈 점수` :
+                            `${router.query.quizid}장 퀴즈 점수`}
                         <div className="text-3xl p-2 text-amber-400">
                             {score}점
                             {getComment()}
@@ -148,7 +160,7 @@ export default function Quiz(){
                     
                     <div className="text-xl p-1">채점 정오표</div>
                     {corrects ? (
-                    <div className="grid grid-cols-5">
+                    <div className="grid grid-cols-4">
                         {corrects?.map((data, key) => (
                             <div className="border-2 text-center" key={key}>
                                 <div className="border-2 py-2">

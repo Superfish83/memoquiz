@@ -1,0 +1,45 @@
+[
+    {
+      "question": "네트워크 간의 통신을 구현하기 위해 필요한 네트워크 계층 장비의 이름은?",
+      "options": ["라우터", "스위치", "랜 카드", "허브"],
+      "correctAnswer": "라우터"
+    },
+    {
+      "question": "다른 네트워크에 데이터를 보내기 위해 필요한 주소는?",
+      "options": [ "IP 주소", "MAC 주소", "메모리 주소", "도로명주소"],
+      "correctAnswer": "IP 주소"
+    },
+    {
+      "question": "IPv4 주소와 IPv6 주소를 각각 이루는 비트 수를 순서대로 올바르게 쓴 것은?",
+      "options": ["32비트, 128비트", "32비트, 64비트", "64비트, 128비트", "32비트, 48비트"],
+      "correctAnswer": "32비트, 128비트"
+    },
+    {
+      "question": "라우터에서, 공인 IP 주소와 사설 IP 주소를 서로 바꾸는 변환을 무엇이라고 하는가?",
+      "options": [ "NAT(Network Address Translation)",
+                   "FFT(Fast Fourier Transform)",
+                   "Port Forwarding",
+                   "DCT(Discrete Cosine Transform)"],
+      "correctAnswer": "NAT(Network Address Translation)"
+    },
+    {
+      "question": "다음 중 C 클래스 IP 주소이면서, 라우터가 자신의 IP로 사용할 수 있는 주소는?",
+      "options": ["192.10.10.1", "128.10.255.255", "192.10.10.0", "128.10.255.1"],
+      "correctAnswer": "192.10.10.1"
+    },
+    {
+      "question": "다음 IP 주소 중 브로드캐스트 주소는?",
+      "options": ["132.12.255.255", "191.10.0.255", "60.0.255.255", "200.10.10.0"],
+      "correctAnswer": "132.12.255.255"
+    },
+    {
+      "question": "C 클래스 IP 주소를 서브넷 마스크 /28로 서브넷팅하였다. 컴퓨터가 가질 수 있는 호스트 ID의 가짓수는?",
+      "options": ["2^4 - 2", "2^32 - 2", "2^8 - 2", "2^28 - 2"],
+      "correctAnswer": "2^4 - 2"
+    },
+    {
+      "question": "다음 중 라우터가 최적의 경로를 통해 데이터를 전송하기 위해 이용하는 것은?",
+      "options": ["라우팅 테이블", "MAC 주소 테이블", "CSMA/CD", "DHCP"],
+      "correctAnswer": "라우팅 테이블"
+    }
+]
