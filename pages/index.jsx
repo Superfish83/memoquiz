@@ -44,12 +44,12 @@ export default function Index(){
         </div>
         <div>
             <PageCard 
-                name="화작(수능특강)"
+                name="화작 (수능특강)"
                 imgpath="/titleimg/st1.png"
                 qlink="/Korean/quiz"
                 slink="/Korean/study"/>
             <PageCard 
-                name="정보통신(네트워크)"
+                name="정보통신 (네트워크)"
                 imgpath="/titleimg/jt1.jpg"
                 qlink="/JungboTongsin/quiz"
                 slink="/JungboTongsin/study"/>
