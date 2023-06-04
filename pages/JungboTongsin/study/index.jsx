@@ -26,7 +26,7 @@ export default function Home(){
         <div>
             <BackButton link="/"/>
             <div className="font-extrabold pt-4 text-3xl text-center">
-                정보통신 (3-1)
+                정보통신 (네트워크)
             </div>
             <div className="font-extrabold p-2 text-xl text-center">
                 수업 자료
