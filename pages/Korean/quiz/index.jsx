@@ -24,7 +24,7 @@ export default function Home(){
     function Chapter({num, type, title, imgPath}){
 
         return (
-            <div className="m-2 rounded-lg bg-gray-100">
+            <div className="m-2 rounded-lg bg-gray-100 border-2">
             <Link href={'quiz/' + num}>
                 <div className="p-2">
                 <div className="text-lg">{type}</div>
