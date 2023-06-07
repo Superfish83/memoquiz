@@ -4,6 +4,14 @@ import { useCallback, useEffect, useState } from 'react';
 import { shuffle } from 'lodash'
 import { News_Cycle } from "next/font/google";
 import { Link } from "react-router-dom";
+import { Button, Card, CardBody, UncontrolledCollapse } from "reactstrap";
+import { Nanum_Myeongjo } from 'next/font/google';
+
+const myeongjo = Nanum_Myeongjo(
+    {
+      subsets: ['latin'],
+      weight: ['400', '700', '800']
+    });
 
 export default function Quiz(){
     const router = useRouter();
@@ -11,7 +19,9 @@ export default function Quiz(){
     const forceUpdate = useCallback(() => updateState({}), []);
 
     const [quizData, setQuizData] = useState(null);
-    const [selectData, setSelectData] = useState([]);;
+    const [selectData, setSelectData] = useState([]);
+    const [textData, setTextData] = useState(null);
+    const [showText, setShowText] = useState(true);
     const [corrects, setCorrects] = useState([]);
     const [wrongData, setWrongData] = useState([]);
     const [score, setScore] = useState(-1);
@@ -24,6 +34,19 @@ export default function Quiz(){
           return response.json();
         }).then(data => {
           setChapterData(data[router.query.quizid - 1]);
+        }).catch((e) => {
+          console.log(e.message);
+        });
+    }
+
+    const fetchTextJson = (id) => {
+        fetch("../../korean/textdata/" + id + ".txt")
+        .then(response => {
+          return response.text();
+        }).then(data => {
+            data = data.replaceAll('\n', '');
+            data = data.replaceAll('ㅤ', '\nㅤ');
+          setTextData(data.slice(1));
         }).catch((e) => {
           console.log(e.message);
         });
@@ -54,6 +77,7 @@ export default function Quiz(){
     useEffect(() => {
         if(router.isReady){
             fetchJson();
+            fetchTextJson(router.query.quizid);
             fetchQuizJson(router.query.quizid);
         }
     }, [router.isReady]);
@@ -101,6 +125,24 @@ export default function Quiz(){
             if(score < 100) return <div className="text-blue-500">오~ 좀 치는군요.</div>;
             if(score == 100) return <div className="text-purple-500">완벽합니다.</div>;
         }
+    }
+
+    function PassageText(){
+        const text = textData;
+
+        return (
+            <div className="my-4">
+                <button className="w-full text-lime-700 font-bold" onClick={() => {setShowText(!showText)}}>
+                    지문 {showText ? "숨기기" : "보이기"}
+                </button>
+                {showText ? (
+                    <div className={`border-2 border-lime-700 rounded-xl m-1 p-2 ` + 
+                        myeongjo.className}>
+                        {text}
+                    </div>
+                ) : null}
+            </div>
+        )
     }
 
     function Question({id, data, sel}){
@@ -160,6 +202,7 @@ export default function Quiz(){
                     <div className="text-center pb-4 font-bold">
                         {chapterData?.type} : &quot;{chapterData?.title}&quot;
                     </div>
+                    <PassageText />
                     {
                         quizData?.map((data, key) => (
                             <div className="my-10" key={key}>
