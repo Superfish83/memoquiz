@@ -54,7 +54,7 @@ export default function Index(){
                 qlink="/JungboTongsin/quiz"
                 slink="/JungboTongsin/study"/>
             <Link href={'/ee'}
-                className="border-white text-white bg-white">
+                className="border-white text-slate-50 bg-white">
                     2회고사 ㅎㅇㅌ
             </Link>
         </div>

@@ -158,9 +158,10 @@ export default function Quiz(){
                 {
                     text ? 
                     (
-                        <div className="border-2 border-slate-600 rounded-xl mx-1 my-4 p-2">
+                        <div className="border-2 border-slate-600 rounded-xl mx-1 mb-4 p-2">
                             <div className="font-bold text-center">[보기]</div>
                             {text}
+                            {refs ? 
                             <div className="p-2 text-slate-400">
                                 출처
                                 {refs?.map((data, key) => (
@@ -171,6 +172,7 @@ export default function Quiz(){
                                         key={key}>[{key+1}]</a>
                                 ))}
                             </div>
+                            :null}   
                         </div>
                     ) : null
                 }
