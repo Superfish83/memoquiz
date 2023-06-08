@@ -1,29 +1,2 @@
 [
-    {
-      "question": "테스트 문제 1",
-      "options": ["가",
-                  "나",
-                  "다", 
-                  "라", 
-                  "마"],
-      "correctAnswer": "가"
-    },
-    {
-      "question": "테스트 문제 2",
-      "options": ["바",
-                  "사",
-                  "아", 
-                  "자", 
-                  "차"],
-      "correctAnswer": "1"
-    },
-    {
-      "question": "테스트 문제 3",
-      "options": ["A",
-                  "B",
-                  "C", 
-                  "D", 
-                  "E"],
-      "correctAnswer": "A"
-    }
 ]
