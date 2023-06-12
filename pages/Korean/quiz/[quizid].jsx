@@ -28,18 +28,12 @@ export default function Quiz(){
 
     const [chapterData, setChapterData] = useState();
     
-    const fetchJson = () => {
-        fetch("../../korean/chapterData.json")
-        .then(response => {
-          return response.json();
-        }).then(data => {
-          setChapterData(data[router.query.quizid - 1]);
-        }).catch((e) => {
-          console.log(e.message);
-        });
+    const getChapterJson = () => {
+        let data = require(`../chapterData.json`);
+        setChapterData(data[router.query.quizid - 1]);
     }
 
-    const fetchTextJson = (id) => {
+    const fetchTextFile = (id) => {
         fetch("../../korean/textdata/" + id + ".txt")
         .then(response => {
           return response.text();
@@ -52,33 +46,26 @@ export default function Quiz(){
         });
     }
 
-    const fetchQuizJson = (id) => {
-        fetch("../../korean/quizdata/" + id + ".json")
-        .then(response => {
-          return response.json();
-        }).then(data => {
-          let shfData = data;//shuffle(data);
-          let selData = []
-          for(let i = 0; i < data.length; i++){
-            let item = shfData[i];
-            item.options = shuffle(item.options);
-            shfData[i] = item;
-            selData.push(-1);
-          }
-          //console.log(data)
-          //console.log(shfData)
-          setSelectData(selData);
-          setQuizData(shfData);
-        }).catch((e) => {
-          console.log(e.message);
-        });
+    const getQuizJson = (id) => {
+        let data = require(`./quizdata/${id}.json`);
+        
+        let shfData = data;
+        let selData = []
+        for(let i = 0; i < data.length; i++){
+          let item = shfData[i];
+          item.options = shuffle(item.options);
+          shfData[i] = item;
+          selData.push(-1);
+        }
+        setSelectData(selData);
+        setQuizData(shfData);
       }
 
     useEffect(() => {
         if(router.isReady){
-            fetchJson();
-            fetchTextJson(router.query.quizid);
-            fetchQuizJson(router.query.quizid);
+            getChapterJson();
+            fetchTextFile(router.query.quizid);
+            getQuizJson(router.query.quizid);
         }
     }, [router.isReady]);
 

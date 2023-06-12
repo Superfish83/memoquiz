@@ -53,10 +53,6 @@ export default function Index(){
                 imgpath="/titleimg/jt1.jpg"
                 qlink="/JungboTongsin/quiz"
                 slink="/JungboTongsin/study"/>
-            <Link href={'/ee'}
-                className="border-white text-slate-50 bg-white">
-                    2회고사 ㅎㅇㅌ
-            </Link>
         </div>
     </div>
     );

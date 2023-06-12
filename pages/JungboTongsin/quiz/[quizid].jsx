@@ -16,25 +16,19 @@ export default function Quiz(){
     const [score, setScore] = useState(-1);
 
     const fetchJson = (id) => {
-        fetch("../../jt/quizdata/ch" + id + ".json")
-        .then(response => {
-          return response.json();
-        }).then(data => {
-          let shfData = shuffle(data);
-          let selData = []
-          for(let i = 0; i < data.length; i++){
-            let item = shfData[i];
-            item.options = shuffle(item.options);
-            shfData[i] = item;
-            selData.push(-1);
-          }
-          //console.log(data)
-          //console.log(shfData)
-          setSelectData(selData);
-          setQuizData(shfData);
-        }).catch((e) => {
-          console.log(e.message);
-        });
+        let data = require(`./quizdata/ch${id}.json`);
+        let shfData = shuffle(data);
+        let selData = []
+        for(let i = 0; i < data.length; i++){
+          let item = shfData[i];
+          item.options = shuffle(item.options);
+          shfData[i] = item;
+          selData.push(-1);
+        }
+        //console.log(data)
+        //console.log(shfData)
+        setSelectData(selData);
+        setQuizData(shfData);
       }
 
     useEffect(() => {

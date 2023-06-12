@@ -9,25 +9,20 @@ export default function Home(){
     const router = useRouter();
     const [chapterData, setChapterData] = useState();
     
-    const fetchJson = () => {
-        fetch("../../korean/chapterData.json")
-        .then(response => {
-          return response.json();
-        }).then(data => {
-          setChapterData(data);
-        }).catch((e) => {
-          console.log(e.message);
-        });
-    }
-    useEffect( () => ( fetchJson() ), [] )
 
-    function Chapter({num, type, title, imgPath}){
+    const getChapterJson = () => {
+        let data = require(`../chapterData.json`);
+        setChapterData(data);
+    }
+    useEffect( () => ( getChapterJson() ), [] )
+
+    function Chapter({num, type, title, imgPath, q_count}){
 
         return (
             <div className="m-2 rounded-lg bg-gray-100 border-2">
             <Link href={'quiz/' + num}>
                 <div className="p-2">
-                <div className="text-lg">{type}</div>
+                <div className="text-lg">{type} ({q_count}문제)</div>
                 <div className="text-xl font-bold">{title}</div>
                 </div>
                 <Image
@@ -60,9 +55,16 @@ export default function Home(){
                             type={data.type}
                             title={data.title}
                             imgPath={data.imgPath}
+                            q_count={data.q_count}
                         />
                     ))
                 }
+            </div>
+            
+            <div className="py-8 text-center">
+                <Link href={'/ee'}>
+                        퀴즈 제작: 김연준, 백주은, 손희원, 오수인, 최재경
+                </Link>
             </div>
         </div>
     );
