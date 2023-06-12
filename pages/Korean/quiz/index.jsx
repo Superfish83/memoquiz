@@ -29,7 +29,7 @@ export default function Home(){
                     className=" mx-auto rounded-lg"
                     src={imgPath}
                     width={600}
-                    height={400}
+                    height={200}
                     alt={num}
                 />
             </Link>

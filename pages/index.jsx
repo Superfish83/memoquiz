@@ -13,7 +13,7 @@ export default function Index(){
                     className="p-2 mx-auto rounded-3xl"
                     src={imgpath}
                     width={500}
-                    height={500}
+                    height={200}
                     alt={name}
                 />
                 <div className="grid grid-cols-2 text-center">
