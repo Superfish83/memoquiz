@@ -61,5 +61,15 @@
       "question": "(  )는 자율시스템간(AS) 간에 통신할수 있는 프로토콜로 대규모망에 사용된다.",
       "options": ["BGP", "OSPF", "RIP", "TCP"],
       "correctAnswer": "BGP"
+    },
+    {
+      "question": "(  )는 비연결형 통신, (  )는 연결형 통신에 해당한다.",
+      "options": ["UDP / TCP", "TCP / UDP", "IP / UDP", "TCP / IP"],
+      "correctAnswer": "UDP / TCP"
+    },
+    {
+      "question": "TCP는 (  )을 이용해 통신한다.",
+      "options": ["가상회선 패킷 교환 방식", "데이터그램 패킷 교환 방식", "라우팅 프로토콜", "DHCP 프로토콜"],
+      "correctAnswer": "가상회선 패킷 교환 방식"
     }
 ]
