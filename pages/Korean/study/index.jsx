@@ -9,17 +9,11 @@ export default function Home(){
     const router = useRouter();
     const [chapterData, setChapterData] = useState();
     
-    const fetchJson = () => {
-        fetch("../../korean/chapterData.json")
-        .then(response => {
-          return response.json();
-        }).then(data => {
-          setChapterData(data);
-        }).catch((e) => {
-          console.log(e.message);
-        });
+    const getChapterJson = () => {
+        let data = require(`../chapterData.json`);
+        setChapterData(data);
     }
-    useEffect( () => ( fetchJson() ), [] )
+    useEffect( () => ( getChapterJson() ), [] )
 
     function Chapter({num, type, title, imgPath}){
 
@@ -49,7 +43,7 @@ export default function Home(){
                 화법과 작문 (3-1)
             </div>
             <div className="font-extrabold p-2 text-xl text-center">
-                수업 자료
+                수업 필기 자료
             </div>
             <div>
                 {
