@@ -19,14 +19,14 @@ export default function Home(){
     function Chapter({num, type, title, imgPath, q_count}){
 
         return (
-            <div className="m-2 rounded-lg bg-gray-100 border-2">
+            <div className="m-2 rounded-lg bg-amber-100 border-2 border-amber-100">
             <Link href={'quiz/' + num}>
                 <div className="p-2">
                 <div className="text-lg">{type} ({q_count}문제)</div>
                 <div className="text-xl font-bold">{title}</div>
                 </div>
                 <Image
-                    className=" mx-auto rounded-lg"
+                    className="mx-auto rounded-lg"
                     src={imgPath}
                     width={600}
                     height={200}
@@ -44,7 +44,7 @@ export default function Home(){
                 화법과 작문 (3-1)
             </div>
             <div className="font-extrabold p-2 text-xl text-center">
-                퀴즈 풀기
+                자작 퀴즈 풀기
             </div>
             <div>
                 {

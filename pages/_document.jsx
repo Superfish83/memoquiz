@@ -10,6 +10,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head/>
+        <title>2회고사 퀴즈</title>
         <body className="mx-auto sm:w-[640px] m-4 p-4 rounded-xl">
           <Main />
           <NextScript />
