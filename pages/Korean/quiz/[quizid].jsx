@@ -54,7 +54,8 @@ export default function Quiz(){
         let selData = []
         for(let i = 0; i < data.length; i++){
           let item = shfData[i];
-          item.options = shuffle(item.options);
+          if(item.noShuffle) {}
+          else{ item.options = shuffle(item.options); }
           shfData[i] = item;
           selData.push(-1);
         }
@@ -120,11 +121,15 @@ export default function Quiz(){
 
         return (
             <div className="my-4">
-                <button className="w-full text-lime-700 font-bold" onClick={() => {setShowText(!showText)}}>
-                    지문 {showText ? "숨기기" : "보이기"}
+                <div className="flex">
+                <button 
+                    className={`mx-auto text-lime-700 font-bold rounded-lg px-4 py-1`}
+                    onClick={() => {setShowText(!showText)}}>
+                    {showText ? "▲ 지문 접기" : "▼ 지문 펼치기"}
                 </button>
+                </div>
                 {showText ? (
-                    <div className={`border-2 border-lime-700 rounded-xl m-1 p-2 ` + 
+                    <div className={`border-2 border-lime-700 rounded-xl mx-1 p-2 ` + 
                         myeongjo.className}>
                         {text}
                     </div>
@@ -224,7 +229,7 @@ export default function Quiz(){
                     
                     <div className="text-xl p-1">채점 정오표</div>
                     {corrects ? (
-                    <div className="grid grid-cols-5">
+                    <div className="grid grid-cols-4">
                         {corrects?.map((data, key) => (
                             <div className="border-2 text-center" key={key}>
                                 <div className="border-2 py-2">
