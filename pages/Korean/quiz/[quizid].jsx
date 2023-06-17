@@ -40,6 +40,7 @@ export default function Quiz(){
         }).then(data => {
             data = data.replaceAll('\n', '');
             data = data.replaceAll('ㅤ', '\nㅤ');
+            data = data.replaceAll('\n`', '\n');
           setTextData(data.slice(1));
         }).catch((e) => {
           console.log(e.message);
