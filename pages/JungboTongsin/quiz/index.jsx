@@ -52,7 +52,7 @@ export default function Home(){
             <Image 
                 src="/jt/inco.png"
                 width={600}
-                height={200}
+                height={100}
                 />
             </Link>
         </div>

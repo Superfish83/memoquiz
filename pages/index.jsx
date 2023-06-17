@@ -16,7 +16,7 @@ export default function Index(){
                         className="p-2 mx-auto rounded-3xl"
                         src={imgpath}
                         width={500}
-                        height={200}
+                        height={100}
                         alt={name}
                         />
                 </div>

@@ -29,7 +29,7 @@ export default function Home(){
                     className="mx-auto rounded-lg"
                     src={imgPath}
                     width={600}
-                    height={200}
+                    height={100}
                     alt={num}
                 />
             </Link>
@@ -60,8 +60,16 @@ export default function Home(){
                     ))
                 }
             </div>
+
+            <div className="flex">
+            <Link
+                href='https://docs.google.com/forms/d/e/1FAIpQLSce_97Z0QtDfEfhKJzJyTghauBGVLFzvPybd_nV9RrXQ-m1gg/viewform'
+                className="mt-10 mx-auto py-2 px-4 rounded-lg border-2 bg-blue-200 border-blue-300">
+                설문조사 참여하기
+            </Link>
+            </div>
             
-            <div className="py-8 text-center">
+            <div className="py-10 text-center">
                 <Link href={'/ee'}>
                         퀴즈 제작: 김연준, 백주은, 손희원, 오수인, 최재경
                 </Link>

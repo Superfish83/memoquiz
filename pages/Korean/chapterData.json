@@ -3,13 +3,13 @@
         "type" : "독서 - 인문예술 10",
         "title" : "사회 계약론",
         "imgPath" : "/korean/titleimg/1.jpg",
-        "q_count" :3
+        "q_count" : 3
     },
     {
         "type" : "독서 - 사회문화 10",
         "title" : "조선 시대 소송 제도",
         "imgPath" : "/korean/titleimg/2.png",
-        "q_count" : 0
+        "q_count" : 3
     },
     {
         "type" : "독서 - 과학기술 06",
