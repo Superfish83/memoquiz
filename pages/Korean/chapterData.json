@@ -28,59 +28,5 @@
         "title" : "한비자와 마키아벨리의 통치론",
         "imgPath" : "/korean/titleimg/5.jpeg",
         "q_count" : 3
-    },
-    {
-        "type" : "문학 - 고전시가 06",
-        "title" : "「만분가」(조위)",
-        "imgPath" : "/korean/titleimg/6.jpeg",
-        "q_count" : 0
-    },
-    {
-        "type" : "문학 - 고전시가 11",
-        "title" : "「영립」, 「원생원」(김삿갓), 「청산리 벽계수야 ~」(황진이)",
-        "imgPath" : "/korean/titleimg/7.jpeg",
-        "q_count" : 0
-    },
-    {
-        "type" : "문학 - 현대시 06",
-        "title" : "「참회록」(윤동주), 「누가 하늘을 보았다 하는가」(신동엽)",
-        "imgPath" : "/korean/titleimg/8.jpg",
-        "q_count" : 0
-    },
-    {
-        "type" : "문학 - 현대시 09",
-        "title" : "「폐촌행」(신경림), 「세한도」(고재종)",
-        "imgPath" : "/korean/titleimg/9.png",
-        "q_count" : 0
-    },
-    {
-        "type" : "문학 - 고전 산문 08",
-        "title" : "「광문자전」(박지원)",
-        "imgPath" : "/korean/titleimg/10.png",
-        "q_count" : 0
-    },
-    {
-        "type" : "문학 - 고전 산문 09",
-        "title" : "「토끼전」(작자 미상)",
-        "imgPath" : "/korean/titleimg/11.png",
-        "q_count" : 1
-    },
-    {
-        "type" : "문학 - 현대 소설 10",
-        "title" : "「그해 겨울은 따뜻했네」(박완서)",
-        "imgPath" : "/korean/titleimg/12.png",
-        "q_count" : 0
-    },
-    {
-        "type" : "문학 - 현대 소설 11",
-        "title" : "「달로 간 코미디언」(김연수)",
-        "imgPath" : "/korean/titleimg/13.jpg",
-        "q_count" : 0
-    },
-    {
-        "type" : "문학 - 갈래 복합 08",
-        "title" : "「낙타」(이한직), 「방울 소리」(이수익), 「말을 찾아서」(이순원)",
-        "imgPath" : "/korean/titleimg/14.png",
-        "q_count" : 0
     }
 ]

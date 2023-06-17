@@ -1,6 +1,7 @@
 import BackButton from "@/components/BackButton";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import Image from 'next/image';
 
 export default function Home(){
     const router = useRouter();
@@ -43,7 +44,17 @@ export default function Home(){
             <Chapter num={3} title="물리 계층" desc="통신 매체, 케이블, 리피터, 허브"/>
             <Chapter num={4} title="데이터 링크 계층" desc="이더넷, MAC 주소, 스위치"/>
             <Chapter num={5} title="네트워크 계층" desc="IP 주소, 서브넷, 라우터"/>
+            <Chapter num={6} title="전송 계층" desc="TCP, 일련번호, 포트, UDP, 오류 체크"/>
             <Chapter num={0} desc="전 범위를 대상으로 실력을 테스트해 보세요."/>
+        </div>
+        <div className="p-2 mt-16 flex">
+            <Link href="http://inco.moveto.kr" className="mx-auto">
+            <Image 
+                src="/jt/inco.png"
+                width={600}
+                height={200}
+                />
+            </Link>
         </div>
     </div>);
 }
