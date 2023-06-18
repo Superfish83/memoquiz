@@ -61,10 +61,12 @@ export default function Home(){
                 }
             </div>
 
+            <div className="mt-10 text-center">문제를 다 푸셨나요?</div>
+            <div className="text-center text-sm">설문조사로 피드백을 주시면 도움이 됩니다!</div>
             <div className="flex">
             <Link
                 href='https://docs.google.com/forms/d/e/1FAIpQLSce_97Z0QtDfEfhKJzJyTghauBGVLFzvPybd_nV9RrXQ-m1gg/viewform'
-                className="mt-10 mx-auto py-2 px-4 rounded-lg border-2 bg-blue-200 border-blue-300">
+                className="mt-2 mx-auto py-2 px-4 rounded-lg border-2 bg-purple-200 border-purple-300">
                 설문조사 참여하기
             </Link>
             </div>
