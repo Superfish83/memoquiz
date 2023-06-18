@@ -3,7 +3,7 @@
         "type" : "독서 - 인문예술 10",
         "title" : "사회 계약론",
         "imgPath" : "/korean/titleimg/1.jpg",
-        "q_count" : 3
+        "q_count" : 4
     },
     {
         "type" : "독서 - 사회문화 10",
@@ -27,6 +27,6 @@
         "type" : "독서 - 주제통합 05",
         "title" : "한비자와 마키아벨리의 통치론",
         "imgPath" : "/korean/titleimg/5.jpeg",
-        "q_count" : 3
+        "q_count" : 4
     }
 ]
