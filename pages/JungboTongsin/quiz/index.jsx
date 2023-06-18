@@ -38,6 +38,14 @@ export default function Home(){
         <div className="font-extrabold p-2 text-xl text-center">
             퀴즈 풀기
         </div>
+        <div className="flex">
+            <Image 
+                className="mx-auto"
+                src="/jt/jt.jpeg"
+                width={200}
+                height={200}
+            />
+        </div>
         <div>
             <Chapter num={1} title="네트워크 첫걸음" desc="네트워크, 데이터, LAN과 WAN"/>
             <Chapter num={2} title="네트워크의 기본 규칙" desc="프로토콜, OSI 7계층, 캡슐화"/>
