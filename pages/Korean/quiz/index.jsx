@@ -19,7 +19,7 @@ export default function Home(){
     function Chapter({num, type, title, imgPath, q_count}){
 
         return (
-            <div className="m-2 rounded-lg bg-amber-100 border-2 border-amber-100">
+            <div className="m-2 rounded-lg bg-amber-50 border-2 border-white">
             <Link href={'quiz/' + num}>
                 <div className="p-2">
                 <div className="text-lg">{type} ({q_count}문제)</div>
@@ -29,7 +29,7 @@ export default function Home(){
                     className="mx-auto rounded-lg"
                     src={imgPath}
                     width={600}
-                    height={100}
+                    height={150}
                     alt={num}
                 />
             </Link>
