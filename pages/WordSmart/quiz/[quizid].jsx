@@ -1,0 +1,138 @@
+import BackButton from "@/components/BackButton";
+import { useRouter } from "next/router";
+import { useEffect, useState } from 'react';
+import { shuffle } from 'lodash'
+import Link from "next/link";
+
+export default function Quiz(){
+    const router = useRouter();
+
+    // 퀴즈 목록, chapter 데이터 불러와 저장하는 state
+    const [quizData, setQuizData] = useState(null);
+    const [chapterData, setChapterData] = useState();
+
+    // Word Bank state
+    const [wordBank, setWordBank] = useState([]);
+
+    // 퀴즈 목록 중에서 현재 표시할 퀴즈의 번호
+    const [quizNum, setQuizNum] = useState(0);
+
+    // 방금 퀴즈가 맞았는지 여부
+    const [prevCorrect, setPrevCorrect] = useState(false);
+    // 방금 퀴즈의 정답 표시
+    const [prevAnswer, setPrevAnswer] = useState(null);
+
+    // 사용자가 입력한 답안 데이터
+    const [answer, setAnswer] = useState("");
+    
+    const getChapterJson = () => {
+        let data = require(`../chapterData.json`);
+        setChapterData(data[router.query.quizid - 1]);
+    }
+
+    const getQuizJson = (id) => {
+        let data = require(`./quizdata/${id}.json`);
+
+        let bank = [] // Word Bank
+        for(let i = 0; i < data.length; i++){
+            bank.push(data[i].correctAnswer);
+        }
+        setWordBank(bank);
+        
+        let shfData = shuffle(data);
+
+        let endData = {
+            question: `이 목차의 단어를 모두 학습했습니다.`,
+            correctAnswer: ""
+        };
+        shfData.push(endData);
+
+        setQuizData(shfData);
+      }
+
+    useEffect(() => {
+        if(router.isReady){
+            setQuizData([]);
+            getChapterJson();
+            getQuizJson(router.query.quizid);
+        }
+    }, [router.isReady]);
+
+    function handleKeyDown(e){
+        if(e.key === "Enter" && answer?.length > 0){
+            const corAns = quizData[quizNum].correctAnswer;
+            const refinedAnswer = answer.toLowerCase().trim();
+            // Enter 입력(정답 제출) 시 처리
+            if(refinedAnswer === corAns){
+                // 정답이라면
+                setPrevCorrect(true);
+            }
+            else{
+                setPrevCorrect(false);
+            }
+            setQuizNum(quizNum+1);
+            setPrevAnswer(corAns);
+            setAnswer("");
+            e.target.value = "";
+        }
+    }
+
+    function WordBank(){
+        return (
+            <div className="m-4 p-2 border-2 mt-6 rounded-xl">
+                <div className="text-center my-2 font-bold">Word Bank</div>
+                <div className="flex flex-wrap text-slate-600">
+                    {wordBank?.map((data, key)=> (
+                        <div className="mx-2" key={key}>{data}</div>
+                    ))}
+                </div>
+            </div>
+        )
+    }
+
+
+    function Question({data}){
+        return (
+            <div>
+                {prevAnswer ? (<div className={`text-center font-bold ${prevCorrect ? "text-emerald-500" : "text-red-500"}`}>
+                    {(prevCorrect ? "맞았습니다!" : "틀렸습니다...") +  ` 정답: ${prevAnswer}`}
+                </div>) : null}
+                <div className="p-4 m-4 border-2 rounded-lg">
+                    {data?.question}
+                </div>
+            </div>
+        )
+    }
+
+    return (
+    <div>
+        <BackButton link="/WordSmart/quiz"/>
+        {
+            quizData ? 
+                (<div>
+                    <div className="text-center pt-4 text-2xl font-bold">
+                        퀴즈
+                    </div>
+                    <div className="text-center pb-4 font-bold">
+                        {chapterData?.type} : &quot;{chapterData?.title}&quot;
+                    </div>
+                    <Question className="my-10" data={quizData[quizNum]}/>
+                    <div className="flex">
+                        {quizData[quizNum]?.correctAnswer?.length > 0 ? (
+                                <input
+                                    onKeyDown={handleKeyDown}
+                                    onChange={(e) => setAnswer(e.target?.value)}
+                                    className="mx-auto border-2 border-slate-800 rounded-lg p-2"
+                                    placeholder="[Enter]로 답안 제출"/>
+                            ) : (
+                            <Link href="/WordSmart/quiz/" 
+                                className="mx-auto border-2 border-slate-800 rounded-lg p-2">돌아가기</Link>)
+                        }
+                    </div>
+                    <WordBank/>
+                </div>)
+                : (<div>데이터 로드 중...</div>)
+        }
+    </div>
+    );
+}

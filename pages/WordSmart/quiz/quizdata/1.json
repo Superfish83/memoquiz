@@ -1,0 +1,210 @@
+[
+    {
+      "question": "to make shamed; to embarrass",
+      "correctAnswer": "abash"
+    },
+    {
+      "question": "to subside; to reduce",
+      "correctAnswer": "abate"
+    },
+    {
+      "question": "to step down from a position of power or responsibility",
+      "correctAnswer": "abdicate"
+    },
+    {
+      "question": "something not typical; a derivation from the standard",
+      "correctAnswer": "aberration"
+    },
+    {
+      "question": "to hate very, very much; to detest",
+      "correctAnswer": "abhor"
+    },
+    {
+      "question": "hopeless; extremely sad and servile; defeated",
+      "correctAnswer": "abject"
+    },
+    {
+      "question": "to deny oneself things; to reject; to renounce",
+      "correctAnswer": "abnegate"
+    },
+    {
+      "question": "unsuccessful",
+      "correctAnswer": "abortive"
+    },
+    {
+      "question": "to shortedn; to condense",
+      "correctAnswer": "abridge"
+    },
+    {
+      "question": "total; unlimited",
+      "correctAnswer": "absolute"
+    },
+    {
+      "question": "to forgive or free from blame; to free from sin; to free from an obligation",
+      "correctAnswer": "absolve"
+    },
+
+    {
+      "question": "an original model or pattern",
+      "correctAnswer": "archetype"
+    },
+    {
+      "question": "passionate; enthusiastic",
+      "correctAnswer": "ardent"
+    },
+    {
+      "question": "hard; difficult",
+      "correctAnswer": "arduous"
+    },
+    {
+      "question": "of noble birth; snobbish",
+      "correctAnswer": "aristocratic"
+    },
+    {
+      "question": "crafty; wily; sly",
+      "correctAnswer": "artful"
+    },
+    {
+      "question": "a clever trick; cunning",
+      "correctAnswer": "artifice"
+    },
+    {
+      "question": "supremacy; domination",
+      "correctAnswer": "ascendancy"
+    },
+    {
+      "question": "hermitlike; practicing self-denial",
+      "correctAnswer": "ascetic"
+    },
+    {
+      "question": "hardworking; busy; quite diligent",
+      "correctAnswer": "assiduous"
+    },
+    
+    {
+      "question": "roundabout; not following a direct path",
+      "correctAnswer": "circuitous"
+    },
+    {
+      "question": "an indirect expression; use of wordy or evasive language",
+      "correctAnswer": "circumlocution"
+    },
+    {
+      "question": "to draw a line around; to set the limits; to define; to restrict",
+      "correctAnswer": "circumscribe"
+    },
+    {
+      "question": "cautious",
+      "correctAnswer": "circumspect"
+    },
+    {
+      "question": "to frustrate as though by surrounding",
+      "correctAnswer": "circumvent"
+    },
+    {
+      "question": "polite; civilized; courteous",
+      "correctAnswer": "civil"
+    },
+    {
+      "question": "mercy; forgiveness; mildness",
+      "correctAnswer": "clemency"
+    },
+    {
+      "question": "an overused saying or idea",
+      "correctAnswer": "cliche"
+    },
+    {
+      "question": "an exclusive group bound together by some shared quality or interest",
+      "correctAnswer": "clique"
+    },
+
+    {
+      "question": "submission to another's will; respect; courtesy",
+      "correctAnswer": "deference"
+    },
+    {
+      "question": "conclusive; providing the last word",
+      "correctAnswer": "definitive"
+    },
+    {
+      "question": "to break down; to deteriorate",
+      "correctAnswer": "degenerate"
+    },
+    {
+      "question": "harmful",
+      "correctAnswer": "deleterious"
+    },
+    {
+      "question": "to describe accurately; to draw in outline",
+      "correctAnswer": "delineate"
+    },
+    {
+      "question": "to deceive",
+      "correctAnswer": "delude"
+    },
+    {
+      "question": "a flood; an inundation",
+      "correctAnswer": "deluge"
+    },
+    {
+      "question": "a leader of the people, but more a rabble rouser",
+      "correctAnswer": "demagogue"
+    },
+    {
+      "question": "inhabitant",
+      "correctAnswer": "denizen"
+    },
+    {
+      "question": "extreme wickedness or corruption",
+      "correctAnswer": "depravity"
+    },
+    {
+      "question": "to express disapproval of",
+      "correctAnswer": "deprecate"
+    },
+    {
+      "question": "to ridicule; to laugh at contemptuously",
+      "correctAnswer": "deride"
+    },
+
+    {
+      "question": "an emergency; an urgency",
+      "correctAnswer": "exigency"
+    },
+    {
+      "question": "having to do with existence; having to do with the body of thought called existentialism, which basically holds that human beings are responsible for their own actions but is otherwise too complicated to summarizze in a single sentence",
+      "correctAnswer": "existential"
+    },
+    {
+      "question": "to free completely from blame; to exculpate",
+      "correctAnswer": "exonerate"
+    },
+    {
+      "question": "to throw (someone) out of his or her native land; to move away from one's native land; to emigrate",
+      "correctAnswer": "expatriate"
+    },
+    {
+      "question": "providing an immediate advantage; serving one's immediate self-interest; practical",
+      "correctAnswer": "expedient"
+    },
+    {
+      "question": "to speed up or ease the progress of",
+      "correctAnswer": "expedite"
+    },
+    {
+      "question": "clearly and directly expressed",
+      "correctAnswer": "explicit"
+    },
+    {
+      "question": "to praise highly; to laud",
+      "correctAnswer": "extol"
+    },
+    {
+      "question": "unnecessary; irrelevant; extra",
+      "correctAnswer": "extraneous"
+    },
+    {
+      "question": "to project or deduce from something known; to infer",
+      "correctAnswer": "extrapolate"
+    }
+]
