@@ -1,0 +1,214 @@
+[
+    {
+      "question": "to conclude; to deduce",
+      "correctAnswer": "infer"
+    },
+    {
+      "question": "very, very, very small, infinitely small",
+      "correctAnswer": "infinitesimal"
+    },
+    {
+      "question": "frank; without deception; simple; artless; charmingly naive",
+      "correctAnswer": "ingenuous"
+    },
+    {
+      "question": "part of the essential nature of something; intrinsic",
+      "correctAnswer": "inherent"
+    },
+    {
+      "question": "a command or order, especially a court order",
+      "correctAnswer": "injunction"
+    },
+    {
+      "question": "existing since birth; inborn; inherent",
+      "correctAnswer": "innate"
+    },
+    {
+      "question": "harmless; banal",
+      "correctAnswer": "innocuous"
+    },
+    {
+      "question": "excessive; unreasonable",
+      "correctAnswer": "inordinate"
+    },
+    {
+      "question": "hard or impossible to satisfy; greedy; avaricious",
+      "correctAnswer": "insatiable"
+    },
+
+    {
+      "question": "to calm someone down; to placate",
+      "correctAnswer": "pacify"
+    },
+    {
+      "question": "extremely careful; taking pains",
+      "correctAnswer": "painstaking"
+    },
+    {
+      "question": "to relieve or alleviate something without getting rid of the problem; to assuage; to mitigate",
+      "correctAnswer": "palliate"
+    },
+    {
+      "question": "capable of being touched obvious; tangible",
+      "correctAnswer": "palpable"
+    },
+    {
+      "question": "insignificant; worthless",
+      "correctAnswer": "paltry"
+    },
+    {
+      "question": "something that cures everything",
+      "correctAnswer": "panacea"
+    },
+    {
+      "question": "a model or example",
+      "correctAnswer": "paradigm"
+    },
+    {
+      "question": "a true statement or phenomenon that nonetheless seems to contradict itself; an untrue statement or phenomenon that nonetheless seems logical",
+      "correctAnswer": "paradox"
+    },
+    {
+      "question": "narrow or confined in point of view; provincial",
+      "correctAnswer": "parochial"
+    },
+    {
+      "question": "a satirical imitation",
+      "correctAnswer": "parody"
+    },
+    {
+      "question": "stingy",
+      "correctAnswer": "parsimonious"
+    },
+    {
+      "question": "one who supports a particular person, cause, or idea",
+      "correctAnswer": "partisan"
+    },
+
+    {
+      "question": "a consequence; a branching out",
+      "correctAnswer": "ramification"
+    },
+    {
+      "question": "bitter, long-lasting ill will or resentment",
+      "correctAnswer": "rancor"
+    },
+    {
+      "question": "greedy; plundering; avaricious",
+      "correctAnswer": "rapacious"
+    },
+    {
+      "question": "to criticize sharply",
+      "correctAnswer": "rebuke"
+    },
+    {
+      "question": "to contradict; to argue in opposition to; to prove to be false",
+      "correctAnswer": "rebut"
+    },
+    {
+      "question": "stubbornly defiant of authority or control; disobedient",
+      "correctAnswer": "recalcitrant"
+    },
+    {
+      "question": "to publicly take back and deny (something previously said or believed); to openly confess error",
+      "correctAnswer": "recant"
+    },
+    {
+      "question": "mutual; shared; interchangeable",
+      "correctAnswer": "reciprocal"
+    },
+    {
+      "question": "hermitlike; withdrawn from society",
+      "correctAnswer": "reclusive"
+    },
+    {
+      "question": "hard to understand; over one's head",
+      "correctAnswer": "recondite"
+    },
+
+    {
+      "question": "abstaining; voluntarily not doing something, especially something pleasant that is bad for you or has a bad reputation",
+      "correctAnswer": "abstinent"
+    },
+    {
+      "question": "theoretical; impersonal",
+      "correctAnswer": "abstract"
+    },
+    {
+      "question": "hard to understand",
+      "correctAnswer": "abstruse"
+    },
+    {
+      "question": "extremely hopeless or wretched; bottomless",
+      "correctAnswer": "abysmal"
+    },
+    {
+      "question": "an award; an honor",
+      "correctAnswer": "accolade"
+    },
+    {
+      "question": "to approach and speak to someone aggressively",
+      "correctAnswer": "accost"
+    },
+    {
+      "question": "sour; severe; like acid in temper, mood, or tone",
+      "correctAnswer": "acerbic"
+    },
+    {
+      "question": "to comply passively; to accept; to assent; to agree",
+      "correctAnswer": "acquiesce"
+    },
+    {
+      "question": "harshly pungent; bitter",
+      "correctAnswer": "acrid"
+    },
+    {
+      "question": "full of spite; bitter; nasty",
+      "correctAnswer": "acrimonious"
+    },
+    {
+      "question": "keenness of judgment; mental sharpness",
+      "correctAnswer": "acumen"
+    },
+
+    {
+      "question": "to take in; to absorb; to learn thoroughly",
+      "correctAnswer": "assimilate"
+    },
+    {
+      "question": "to soothe; to pacify; to ease the pain of; to relieve",
+      "correctAnswer": "assuage"
+    },
+    {
+      "question": "shrewd; keen in judgement",
+      "correctAnswer": "astute"
+    },
+    {
+      "question": "one who does not believe in the existence of any god or divine being",
+      "correctAnswer": "atheist"
+    },
+    {
+      "question": "gradual wearing away, weakening, or less; a natural or expected decrease in numbers or size",
+      "correctAnswer": "attrition"
+    },
+    {
+      "question": "boldness; reckless daring; impertinence",
+      "correctAnswer": "audacity"
+    },
+    {
+      "question": "to make bigger; to add to; to increase",
+      "correctAnswer": "augment"
+    },
+    {
+      "question": "favorable; promising; pointing to a good result",
+      "correctAnswer": "auspicious"
+    },
+    {
+      "question": "unadorned; stern; forbidding; without excess",
+      "correctAnswer": "austere"
+    },
+    {
+      "question": "ruling with absolute authority; extremely bossy",
+      "correctAnswer": "autocratic"
+    }
+]

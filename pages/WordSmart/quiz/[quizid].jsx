@@ -11,11 +11,13 @@ export default function Quiz(){
     const [quizData, setQuizData] = useState(null);
     const [chapterData, setChapterData] = useState();
 
-    // Word Bank state
+    // Word Bank 정보 저장
     const [wordBank, setWordBank] = useState([]);
 
     // 퀴즈 목록 중에서 현재 표시할 퀴즈의 번호
     const [quizNum, setQuizNum] = useState(0);
+    // 힌트(첫 글자) 표시 여부
+    const [showHint, setShowHint] = useState(false);
 
     // 방금 퀴즈가 맞았는지 여부
     const [prevCorrect, setPrevCorrect] = useState(false);
@@ -79,7 +81,7 @@ export default function Quiz(){
 
     function WordBank(){
         return (
-            <div className="m-4 p-2 border-2 mt-6 rounded-xl">
+            <div className="m-4 p-2 border-2 mt-20 mb-10 rounded-xl">
                 <div className="text-center my-2 font-bold">Word Bank</div>
                 <div className="flex flex-wrap text-slate-600">
                     {wordBank?.map((data, key)=> (
@@ -94,11 +96,12 @@ export default function Quiz(){
     function Question({data}){
         return (
             <div>
-                {prevAnswer ? (<div className={`text-center font-bold ${prevCorrect ? "text-emerald-500" : "text-red-500"}`}>
+                {prevAnswer ? (<div
+                    className={`text-center font-bold ${prevCorrect ? "text-emerald-500" : "text-red-500"}`}>
                     {(prevCorrect ? "맞았습니다!" : "틀렸습니다...") +  ` 정답: ${prevAnswer}`}
                 </div>) : null}
                 <div className="p-4 m-4 border-2 rounded-lg">
-                    {data?.question}
+                    Definition: {data?.question}
                 </div>
             </div>
         )
@@ -119,11 +122,30 @@ export default function Quiz(){
                     <Question className="my-10" data={quizData[quizNum]}/>
                     <div className="flex">
                         {quizData[quizNum]?.correctAnswer?.length > 0 ? (
-                                <input
-                                    onKeyDown={handleKeyDown}
-                                    onChange={(e) => setAnswer(e.target?.value)}
-                                    className="mx-auto border-2 border-slate-800 rounded-lg p-2"
-                                    placeholder="[Enter]로 답안 제출"/>
+                                <div className="mx-auto">
+                                    <div className="text-slate-500 mb-2 flex itmes-center">
+                                        <input
+                                            type="checkbox"
+                                            checked={showHint}
+                                            onChange={() => setShowHint(!showHint)}
+                                            />
+                                        <div className="ml-2">
+                                            Show first letter
+                                        </div>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <div className="mr-2">Word: </div>
+                                        <input
+                                            onKeyDown={handleKeyDown}
+                                            onChange={(e) => setAnswer(e.target?.value)}
+                                            className="mx-auto border-2 border-slate-600 text-pink-600 rounded-lg p-2"
+                                            placeholder={
+                                                showHint ?
+                                                `${quizData[quizNum]?.correctAnswer[0]}...` :
+                                                "[Enter]로 제출"
+                                            }/>
+                                    </div>
+                                </div>
                             ) : (
                             <Link href="/WordSmart/quiz/" 
                                 className="mx-auto border-2 border-slate-800 rounded-lg p-2">돌아가기</Link>)
