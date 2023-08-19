@@ -1,6 +1,186 @@
-[ 
+[
   {
-    "question": "",
-    "correctAnswer": ""
+    "question": "a bitter conteraccusation, or the act of making a bitter counteraccusation",
+    "correctAnswer": "recrimination"
+  },
+  {
+    "question": "fragrant",
+    "correctAnswer": "redolent"
+  },
+  {
+    "question": "unnecessarily repetitive; excessive; excessively",
+    "correctAnswer": "redundant"
+  },
+  {
+    "question": "to prove to be false; to disprove",
+    "correctAnswer": "refute"
+  },
+  {
+    "question": "to say again; to repeat",
+    "correctAnswer": "reiterate"
+  },
+  {
+    "question": "to banish; to send away",
+    "correctAnswer": "relegate"
+  },
+  {
+    "question": "continuous; unstoppable",
+    "correctAnswer": "relentless"
+  },
+  {
+    "question": "to release or let go of; to surrender; to stop doing",
+    "correctAnswer": "relinquish"
+  },
+  {
+    "question": "to argue against; to protest; to raise objections",
+    "correctAnswer": "remonstrate"
+  },
+  {
+    "question": "a rebirth or revival",
+    "correctAnswer": "renaissance"
+  },
+  {
+    "question": "to give up formally or resign; to disowen; to have nothing to do with anymore",
+    "correctAnswer": "renounce"
+  },
+
+  {
+    "question": "a shared principle or belief",
+    "correctAnswer": "tenet"
+  },
+  {
+    "question": "experimental; temporary uncertain",
+    "correctAnswer": "tentative"
+  },
+  {
+    "question": "filmsy; extremely thin",
+    "correctAnswer": "tenuous"
+  },
+  {
+    "question": "using no unnecessary words; succint",
+    "correctAnswer": "terse"
+  },
+  {
+    "question": "the study of God or religion",
+    "correctAnswer": "theology"
+  },
+  {
+    "question": "a prolonged, bitter speech",
+    "correctAnswer": "tirade"
+  },
+  {
+    "question": "sluggishness; inactivity; apathy",
+    "correctAnswer": "torpor"
+  },
+  {
+    "question": "a standard; a test of authenticity or quality",
+    "correctAnswer": "touchstone"
+  },
+  {
+    "question": "to praise highly; to brag publicly about",
+    "correctAnswer": "tout"
+  },
+  {
+    "question": "to go beyond or above; to surpass",
+    "correctAnswer": "transcend"
+  },
+  {
+    "question": "to violate (a law); to sin",
+    "correctAnswer": "transgress"
+  },
+  {
+    "question": "not staying for a long time; temporay",
+    "correctAnswer": "transient"
+  },
+  {
+    "question": "fear; apprehension; nervous trembling",
+    "correctAnswer": "trepidation"
+  },
+  {
+    "question": "shameful wickedness; depravity",
+    "correctAnswer": "turpitude"
+  },
+
+  {
+    "question": "sharp; shrewd",
+    "correctAnswer": "acute"
+  },
+  {
+    "question": "stubborn; unyielding; competely inflexible",
+    "correctAnswer": "adamant"
+  },
+  {
+    "question": "to speak to; to direct one's attention to",
+    "correctAnswer": "address"
+  },
+  {
+    "question": "follower; supporter; believer",
+    "correctAnswer": "adherent"
+  },
+  {
+    "question": "to scold gently; to warn",
+    "correctAnswer": "admonish"
+  },
+  {
+    "question": "skillful; dexterous; clever; shrewd; socially at ease",
+    "correctAnswer": "adroit"
+  },
+  {
+    "question": "wild or excessive admiration; flattery",
+    "correctAnswer": "adulation"
+  },
+
+  {
+    "question": "action independently",
+    "correctAnswer": "autonomous"
+  },
+  {
+    "question": "greed; excessive love of riches",
+    "correctAnswer": "avarice"
+  },
+  {
+    "question": "to claim; to declare boldly; to admit",
+    "correctAnswer": "avow"
+  },
+  {
+    "question": "like an uncle, especially a nice uncle",
+    "correctAnswer": "avuncular"
+  },
+  {
+    "question": "off course; twisted to one side",
+    "correctAnswer": "awry"
+  },
+  {
+    "question": "a self-evident rule or truth; a widely accepted saying",
+    "correctAnswer": "axiom"
+  },
+
+  {
+    "question": "self-satisfied; overly pleased with oneself; contented to a fault",
+    "correctAnswer": "complacent"
+  },
+  {
+    "question": "to complete or fill up; to be the perfect counterpart",
+    "correctAnswer": "complement"
+  },
+  {
+    "question": "participation in wrongdoing; the act of being an accomplice",
+    "correctAnswer": "complicity"
+  },
+  {
+    "question": "covering or including everything",
+    "correctAnswer": "comprehensive"
+  },
+  {
+    "question": "to consist of",
+    "correctAnswer": "comprise"
+  },
+  {
+    "question": "making peace; attempting to resolve a dispute through goodwill",
+    "correctAnswer": "conciliatory"
+  },
+  {
+    "question": "brief and to the point; succint",
+    "correctAnswer": "concise"
   }
 ]
