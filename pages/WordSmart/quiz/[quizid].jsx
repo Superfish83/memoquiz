@@ -81,7 +81,7 @@ export default function Quiz(){
 
     function WordBank(){
         return (
-            <div className="m-4 p-2 border-2 mt-20 mb-10 rounded-xl">
+            <div className="m-4 p-2 border-2 my-10 rounded-xl">
                 <div className="text-center my-2 font-bold">Word Bank</div>
                 <div className="flex flex-wrap text-slate-600">
                     {wordBank?.map((data, key)=> (
@@ -138,7 +138,7 @@ export default function Quiz(){
                                         <input
                                             onKeyDown={handleKeyDown}
                                             onChange={(e) => setAnswer(e.target?.value)}
-                                            className="mx-auto border-2 border-slate-600 text-pink-500 rounded-lg p-2"
+                                            className="mx-auto w-full border-2 border-slate-600 text-slate-800 rounded-lg p-2"
                                             placeholder={
                                                 showHint ?
                                                 `${quizData[quizNum]?.correctAnswer[0]}...` :
