@@ -138,7 +138,7 @@ export default function Quiz(){
                                         <input
                                             onKeyDown={handleKeyDown}
                                             onChange={(e) => setAnswer(e.target?.value)}
-                                            className="mx-auto border-2 border-slate-600 text-pink-600 rounded-lg p-2"
+                                            className="mx-auto border-2 border-slate-600 text-pink-500 rounded-lg p-2"
                                             placeholder={
                                                 showHint ?
                                                 `${quizData[quizNum]?.correctAnswer[0]}...` :
