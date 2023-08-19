@@ -16,7 +16,7 @@ export default function Home(){
     function Chapter({num, type, title}){
 
         return (
-            <div className="m-2 rounded-lg bg-emerald-100 border-2 border-white">
+            <div className="m-2 rounded-lg bg-emerald-100 border-2 border-emerald-200">
             <Link href={'quiz/' + num}>
                 <div className="p-2">
                 <div className="text-lg">{type}</div>

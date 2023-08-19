@@ -1,0 +1,209 @@
+[ 
+  {
+    "question": "to have insight; to see things clearly; to discriminate; to differentiate",
+    "correctAnswer": "discern"
+  },
+  {
+    "question": "prudent; judiciously reserved",
+    "correctAnswer": "discreet"
+  },
+  {
+    "question": "unconnected; separate; distinct",
+    "correctAnswer": "discrete"
+  },
+  {
+    "question": "to notice or point out the differnce between two or more things; to discern; to differentiate",
+    "correctAnswer": "discriminate"
+  },
+  {
+    "question": "arrogant scorn; contempt",
+    "correctAnswer": "disdain"
+  },
+  {
+    "question": "not taking sides; unbiased",
+    "correctAnswer": "disinterested"
+  },
+  {
+    "question": "to belittle; to say uncomplimentary things about, usually in a somewhat indirect way",
+    "correctAnswer": "disparage"
+  },
+
+  {
+    "question": "happiness; skillfulness, especially at expressing things; adeptness",
+    "correctAnswer": "felicity"
+  },
+  {
+    "question": "great warmth or earnestness; ardor; zeal",
+    "correctAnswer": "fervor"
+  },
+  {
+    "question": "to restrain; to hamper",
+    "correctAnswer": "fetter"
+  },
+  {
+    "question": "faithfulness; loyalty",
+    "correctAnswer": "fidelity"
+  },
+  {
+    "question": "based on figures of speech; expressing something in terms usually used for something else; metaphorical",
+    "correctAnswer": "figurative"
+  },
+  {
+    "question": "skillful maneuvering; subtlety; craftiness",
+    "correctAnswer": "finesse"
+  },
+  {
+    "question": "glaringly bad; notorious; scandalous",
+    "correctAnswer": "flagrant"
+  },
+  {
+    "question": "to show off; to display ostentatiously",
+    "correctAnswer": "flaunt"
+  },
+  {
+    "question": "to disregard something out of disrespect",
+    "correctAnswer": "flout"
+  },
+  {
+    "question": "a minor character flaw",
+    "correctAnswer": "foible"
+  },
+  {
+    "question": "to stir up; to instigate",
+    "correctAnswer": "foment"
+  },
+  {
+    "question": "part of the essential nature of something; inherent",
+    "correctAnswer": "intrinsic"
+  },
+  {
+    "question": "tending to think about oneself; examining one's feelings",
+    "correctAnswer": "introspective"
+  },
+  {
+    "question": "to flood; to cover completely with water; to overwhelm",
+    "correctAnswer": "inundate"
+  },
+  {
+    "question": "insuling or abusive speech",
+    "correctAnswer": "invective"
+  },
+  {
+    "question": "habitual; firm in habit; deeply rooted",
+    "correctAnswer": "inveterate"
+  },
+  {
+    "question": "easily angered or provoked; irritable",
+    "correctAnswer": "irascible"
+  },
+  {
+    "question": "meaning the opposite of what you seem to say; using words to mean something other than what they seem to mean",
+    "correctAnswer": "ironic"
+  },
+  {
+    "question": "irreversible",
+    "correctAnswer": "irrevocable"
+  },
+  {
+    "question": "mvoing from place to place",
+    "correctAnswer": "itinerant"
+  },
+  
+  {
+    "question": "final; categorical; dictatorial",
+    "correctAnswer": "peremptory"
+  },
+  {
+    "question": "continual; happening again and again or year after year",
+    "correctAnswer": "perennial"
+  },
+  {
+    "question": "treachery",
+    "correctAnswer": "perfidy"
+  },
+  {
+    "question": "unenthusiatic; careless",
+    "correctAnswer": "perfunctory"
+  },
+  {
+    "question": "wandering; traveling continually; itinerant",
+    "correctAnswer": "peripatetic"
+  },
+  {
+    "question": "the outside edge of something",
+    "correctAnswer": "periphery"
+  },
+  {
+    "question": "lying under oath",
+    "correctAnswer": "perjury"
+  },
+  {
+    "question": "to spread or seep through; to penetrate",
+    "correctAnswer": "permeate"
+  },
+  {
+    "question": "deadly; extremely evil",
+    "correctAnswer": "pernicious"
+  },
+  {
+    "question": "a privilege that goes along with a job; a 'perk'",
+    "correctAnswer": "perquisite"
+  },
+  {
+    "question": "relevant; dealing with the matter at hand",
+    "correctAnswer": "pertinent"
+  },
+  {
+    "question": "to disturb greatly",
+    "correctAnswer": "perturb"
+  },
+  {
+    "question": "to read carefully",
+    "correctAnswer": "peruse"
+  },
+
+  {
+    "question": "paying back; making amends; compensation",
+    "correctAnswer": "reparation"
+  },
+  {
+    "question": "a consequence; an indirect effect",
+    "correctAnswer": "repercussion"
+  },
+  {
+    "question": "to fill again; to resupply; to restore",
+    "correctAnswer": "replenish"
+  },
+  {
+    "question": "completely filled; abounding",
+    "correctAnswer": "replete"
+  },
+  {
+    "question": "worthy of severe blame or censure",
+    "correctAnswer": "reprehensible"
+  },
+  {
+    "question": "a military action undertaken in revenge for another; an act of taking 'an eye for an eye'",
+    "correctAnswer": "reprisal"
+  },
+  {
+    "question": "to scold, usually in disappointment; to blame; to disgrace",
+    "correctAnswer": "reproach"
+  },
+  {
+    "question": "to criticize mildly",
+    "correctAnswer": "reprove"
+  },
+  {
+    "question": "to reject; to renounce; to disown; to have nothing to do with",
+    "correctAnswer": "repudiate"
+  },
+  {
+    "question": "required; necessary",
+    "correctAnswer": "requisite"
+  },
+  {
+    "question": "determined; firm; unwavering",
+    "correctAnswer": "resolute"
+  }
+]

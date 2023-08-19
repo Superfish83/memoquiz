@@ -1,0 +1,242 @@
+[ 
+  {
+    "question": "to come together as one; to fuse; to unite",
+    "correctAnswer": "coalesce"
+  },
+  {
+    "question": "to force someone to do or not to do something",
+    "correctAnswer": "coerce"
+  },
+  {
+    "question": "powerfully convincing",
+    "correctAnswer": "cogent"
+  },
+  {
+    "question": "dealing with how we know the world around us through our senses; mental",
+    "correctAnswer": "cognitive"
+  },
+  {
+    "question": "aware; conscious",
+    "correctAnswer": "cognizant"
+  },
+  {
+    "question": "holding together; making sense",
+    "correctAnswer": "coherent"
+  },
+  {
+    "question": "conversational; informal in language",
+    "correctAnswer": "colloquial"
+  },
+  {
+    "question": "conspiracy; secret cooperation",
+    "correctAnswer": "collusion"
+  },
+  {
+    "question": "equal; proportionate",
+    "correctAnswer": "commensurate"
+  },
+  {
+    "question": "forceful; causing to yield",
+    "correctAnswer": "compelling"
+  },
+  {
+    "question": "a summary; an abridgement",
+    "correctAnswer": "compendium"
+  },
+  
+  {
+    "question": "disapproving; degrading",
+    "correctAnswer": "derogatory"
+  },
+  {
+    "question": "to dry out",
+    "correctAnswer": "desiccate"
+  },
+  {
+    "question": "extremely depressed; full of despair",
+    "correctAnswer": "despondent"
+  },
+  {
+    "question": "an absolute ruler; an autocrat",
+    "correctAnswer": "despot"
+  },
+  {
+    "question": "extrmeely poor; utterly lacking",
+    "correctAnswer": "destitute"
+  },
+  {
+    "question": "without a plan or purpose; disconnected; random",
+    "correctAnswer": "desultory"
+  },
+  {
+    "question": "skillful; adroit",
+    "correctAnswer": "dextrous"
+  },
+  {
+    "question": "relating to discussions; relating to the rules and methos of reasoning; approaching truth in the middle of opposing extremes",
+    "correctAnswer": "dialectical"
+  },
+  {
+    "question": "an authoritative saying; an adage; a maxim; a proverb",
+    "correctAnswer": "dictum"
+  },
+  {
+    "question": "intended to teach; morally instrcutive; pedantic",
+    "correctAnswer": "didactic"
+  },
+  {
+    "question": "timied; lacking in self-confidence",
+    "correctAnswer": "diffident"
+  },
+  {
+    "question": "to stray from the main subject",
+    "correctAnswer": "digress"
+  },
+  {
+    "question": "someone with superficial knowledge of the arts; an amateur; a dabbler",
+    "correctAnswer": "dilettante"
+  },
+
+  {
+    "question": "a lie; something made up",
+    "correctAnswer": "fabrication"
+  },
+  {
+    "question": "humorous; not serious; clumsily humorous",
+    "correctAnswer": "facetious"
+  },
+  {
+    "question": "fluent; skillful in a superficial way; easy",
+    "correctAnswer": "facile"
+  },
+  {
+    "question": "a group, usually a small part of a larger group, united around some cause; disagreement within an organization",
+    "correctAnswer": "faction"
+  },
+  {
+    "question": "absurd; ludicrous",
+    "correctAnswer": "farcical"
+  },
+  {
+    "question": "meticulous; demanding; finicky",
+    "correctAnswer": "fatidious"
+  },
+  {
+    "question": "someone who believes that future events are already determined and that humans are powerless to change them",
+    "correctAnswer": "fatalist"
+  },
+  {
+    "question": "foolish; silly; idiotic",
+    "correctAnswer": "fatuous"
+  },
+  {
+    "question": "animals",
+    "correctAnswer": "fauna"
+  },
+  {
+    "question": "fertile; productive",
+    "correctAnswer": "fecund"
+  },
+
+  {
+    "question": "treacherous; sneaky",
+    "correctAnswer": "insidious"
+  },
+  {
+    "question": "to hint; to creep in",
+    "correctAnswer": "to hint; to creep in"
+  },
+  {
+    "question": "dull; bland; banal",
+    "correctAnswer": "insipid"
+  },
+  {
+    "question": "arrogant; insulting",
+    "correctAnswer": "insolent"
+  },
+  {
+    "question": "to provke; to stir up",
+    "correctAnswer": "instigate"
+  },
+  {
+    "question": "like an island; isolated",
+    "correctAnswer": "insular"
+  },
+  {
+    "question": "a rebel; someone who revolts against a government",
+    "correctAnswer": "insurgent"
+  },
+  {
+    "question": "essential",
+    "correctAnswer": "integral"
+  },
+  {
+    "question": "to combine two or more things into a whole",
+    "correctAnswer": "integrate"
+  },
+  {
+    "question": "uncontrollable; stubborn; disobedient",
+    "correctAnswer": "intractable"
+  },
+  {
+    "question": "uncompromising; stubborn",
+    "correctAnswer": "intransigent"
+  },
+
+  {
+    "question": "obvious",
+    "correctAnswer": "patent"
+  },
+  {
+    "question": "fatherly; fatherlike",
+    "correctAnswer": "paternal"
+  },
+  {
+    "question": "the science of diseases",
+    "correctAnswer": "pathology"
+  },
+  {
+    "question": "the male head of a family or tribe",
+    "correctAnswer": "patriarch"
+  },
+  {
+    "question": "a person of noble birth; an aristocrat",
+    "correctAnswer": "patrician"
+  },
+  {
+    "question": "to treat as an inferior; to condescend to",
+    "correctAnswer": "patronize"
+  },
+  {
+    "question": "scarcity",
+    "correctAnswer": "paucity"
+  },
+  {
+    "question": "a minor offense",
+    "correctAnswer": "peccadillo"
+  },
+  {
+    "question": "boringly scholarly or academic",
+    "correctAnswer": "pedantic"
+  },
+  {
+    "question": "unimaginative; banal",
+    "correctAnswer": "pedestrian"
+  },
+  {
+    "question": "negative; disparaging",
+    "correctAnswer": "pejorative"
+  },
+  {
+    "question": "a strong tate or liking for something; a predilection",
+    "correctAnswer": "penchant"
+  },
+  {
+    "question": "sorry; repentant; contrite",
+    "correctAnswer": "penitent"
+  },
+  {
+    "question": "thoughtful and sad",
+    "correctAnswer": "pensive"
+  }
+]
