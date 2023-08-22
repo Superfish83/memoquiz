@@ -1,4 +1,45 @@
-[ 
+[
+  {
+    "question": "to take in; to absorb; to learn thoroughly",
+    "correctAnswer": "assimilate"
+  },
+  {
+    "question": "to soothe; to pacify; to ease the pain of; to relieve",
+    "correctAnswer": "assuage"
+  },
+  {
+    "question": "shrewd; keen in judgement",
+    "correctAnswer": "astute"
+  },
+  {
+    "question": "one who does not believe in the existence of any god or divine being",
+    "correctAnswer": "atheist"
+  },
+  {
+    "question": "gradual wearing away, weakening, or less; a natural or expected decrease in numbers or size",
+    "correctAnswer": "attrition"
+  },
+  {
+    "question": "boldness; reckless daring; impertinence",
+    "correctAnswer": "audacity"
+  },
+  {
+    "question": "to make bigger; to add to; to increase",
+    "correctAnswer": "augment"
+  },
+  {
+    "question": "favorable; promising; pointing to a good result",
+    "correctAnswer": "auspicious"
+  },
+  {
+    "question": "unadorned; stern; forbidding; without excess",
+    "correctAnswer": "austere"
+  },
+  {
+    "question": "ruling with absolute authority; extremely bossy",
+    "correctAnswer": "autocratic"
+  },
+
   {
     "question": "to come together as one; to fuse; to unite",
     "correctAnswer": "coalesce"
@@ -181,62 +222,5 @@
   {
     "question": "uncompromising; stubborn",
     "correctAnswer": "intransigent"
-  },
-
-  {
-    "question": "obvious",
-    "correctAnswer": "patent"
-  },
-  {
-    "question": "fatherly; fatherlike",
-    "correctAnswer": "paternal"
-  },
-  {
-    "question": "the science of diseases",
-    "correctAnswer": "pathology"
-  },
-  {
-    "question": "the male head of a family or tribe",
-    "correctAnswer": "patriarch"
-  },
-  {
-    "question": "a person of noble birth; an aristocrat",
-    "correctAnswer": "patrician"
-  },
-  {
-    "question": "to treat as an inferior; to condescend to",
-    "correctAnswer": "patronize"
-  },
-  {
-    "question": "scarcity",
-    "correctAnswer": "paucity"
-  },
-  {
-    "question": "a minor offense",
-    "correctAnswer": "peccadillo"
-  },
-  {
-    "question": "boringly scholarly or academic",
-    "correctAnswer": "pedantic"
-  },
-  {
-    "question": "unimaginative; banal",
-    "correctAnswer": "pedestrian"
-  },
-  {
-    "question": "negative; disparaging",
-    "correctAnswer": "pejorative"
-  },
-  {
-    "question": "a strong tate or liking for something; a predilection",
-    "correctAnswer": "penchant"
-  },
-  {
-    "question": "sorry; repentant; contrite",
-    "correctAnswer": "penitent"
-  },
-  {
-    "question": "thoughtful and sad",
-    "correctAnswer": "pensive"
   }
 ]

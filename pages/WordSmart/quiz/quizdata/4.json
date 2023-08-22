@@ -1,5 +1,62 @@
 [
   {
+    "question": "obvious",
+    "correctAnswer": "patent"
+  },
+  {
+    "question": "fatherly; fatherlike",
+    "correctAnswer": "paternal"
+  },
+  {
+    "question": "the science of diseases",
+    "correctAnswer": "pathology"
+  },
+  {
+    "question": "the male head of a family or tribe",
+    "correctAnswer": "patriarch"
+  },
+  {
+    "question": "a person of noble birth; an aristocrat",
+    "correctAnswer": "patrician"
+  },
+  {
+    "question": "to treat as an inferior; to condescend to",
+    "correctAnswer": "patronize"
+  },
+  {
+    "question": "scarcity",
+    "correctAnswer": "paucity"
+  },
+  {
+    "question": "a minor offense",
+    "correctAnswer": "peccadillo"
+  },
+  {
+    "question": "boringly scholarly or academic",
+    "correctAnswer": "pedantic"
+  },
+  {
+    "question": "unimaginative; banal",
+    "correctAnswer": "pedestrian"
+  },
+  {
+    "question": "negative; disparaging",
+    "correctAnswer": "pejorative"
+  },
+  {
+    "question": "a strong tate or liking for something; a predilection",
+    "correctAnswer": "penchant"
+  },
+  {
+    "question": "sorry; repentant; contrite",
+    "correctAnswer": "penitent"
+  },
+  {
+    "question": "thoughtful and sad",
+    "correctAnswer": "pensive"
+  },
+
+  {
     "question": "a bitter conteraccusation, or the act of making a bitter counteraccusation",
     "correctAnswer": "recrimination"
   },
@@ -153,34 +210,5 @@
   {
     "question": "a self-evident rule or truth; a widely accepted saying",
     "correctAnswer": "axiom"
-  },
-
-  {
-    "question": "self-satisfied; overly pleased with oneself; contented to a fault",
-    "correctAnswer": "complacent"
-  },
-  {
-    "question": "to complete or fill up; to be the perfect counterpart",
-    "correctAnswer": "complement"
-  },
-  {
-    "question": "participation in wrongdoing; the act of being an accomplice",
-    "correctAnswer": "complicity"
-  },
-  {
-    "question": "covering or including everything",
-    "correctAnswer": "comprehensive"
-  },
-  {
-    "question": "to consist of",
-    "correctAnswer": "comprise"
-  },
-  {
-    "question": "making peace; attempting to resolve a dispute through goodwill",
-    "correctAnswer": "conciliatory"
-  },
-  {
-    "question": "brief and to the point; succint",
-    "correctAnswer": "concise"
   }
 ]
