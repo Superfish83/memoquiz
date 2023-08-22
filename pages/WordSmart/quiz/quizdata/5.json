@@ -1,4 +1,33 @@
-[ 
+[
+  {
+    "question": "self-satisfied; overly pleased with oneself; contented to a fault",
+    "correctAnswer": "complacent"
+  },
+  {
+    "question": "to complete or fill up; to be the perfect counterpart",
+    "correctAnswer": "complement"
+  },
+  {
+    "question": "participation in wrongdoing; the act of being an accomplice",
+    "correctAnswer": "complicity"
+  },
+  {
+    "question": "covering or including everything",
+    "correctAnswer": "comprehensive"
+  },
+  {
+    "question": "to consist of",
+    "correctAnswer": "comprise"
+  },
+  {
+    "question": "making peace; attempting to resolve a dispute through goodwill",
+    "correctAnswer": "conciliatory"
+  },
+  {
+    "question": "brief and to the point; succint",
+    "correctAnswer": "concise"
+  },
+
   {
     "question": "to have insight; to see things clearly; to discriminate; to differentiate",
     "correctAnswer": "discern"
@@ -160,50 +189,5 @@
   {
     "question": "to read carefully",
     "correctAnswer": "peruse"
-  },
-
-  {
-    "question": "paying back; making amends; compensation",
-    "correctAnswer": "reparation"
-  },
-  {
-    "question": "a consequence; an indirect effect",
-    "correctAnswer": "repercussion"
-  },
-  {
-    "question": "to fill again; to resupply; to restore",
-    "correctAnswer": "replenish"
-  },
-  {
-    "question": "completely filled; abounding",
-    "correctAnswer": "replete"
-  },
-  {
-    "question": "worthy of severe blame or censure",
-    "correctAnswer": "reprehensible"
-  },
-  {
-    "question": "a military action undertaken in revenge for another; an act of taking 'an eye for an eye'",
-    "correctAnswer": "reprisal"
-  },
-  {
-    "question": "to scold, usually in disappointment; to blame; to disgrace",
-    "correctAnswer": "reproach"
-  },
-  {
-    "question": "to criticize mildly",
-    "correctAnswer": "reprove"
-  },
-  {
-    "question": "to reject; to renounce; to disown; to have nothing to do with",
-    "correctAnswer": "repudiate"
-  },
-  {
-    "question": "required; necessary",
-    "correctAnswer": "requisite"
-  },
-  {
-    "question": "determined; firm; unwavering",
-    "correctAnswer": "resolute"
   }
 ]
